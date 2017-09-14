@@ -1,5 +1,15 @@
 $font-stack: 'OpenSans-CondLight', sans-serif;
 
 body {
-	font-family: $font-stack; 
+	font-family: $font-stack;
+	ul {
+		li {
+			list-style-type: none;
+			a {
+				text-decoration: none;
+			}
+		}
+	} 
 }
+
+

@@ -2,5 +2,13 @@
 	width: 80%;
 	height: 80vh;
 	margin-top: 75px;
-	background-color: blue;
+	-webkit-box-shadow: 1px 1px 70px -17px rgba(0,0,0,1);
+	-moz-box-shadow: 1px 1px 70px -17px rgba(0,0,0,1);
+	box-shadow: 1px 1px 70px -17px rgba(0,0,0,1);
+	.d-col-3 {
+		border-right: solid 1px rgba(102, 102, 102, .6);
+	}
+	.d-col-3, .d-col-8 {
+		padding: 50px 70px;
+	}
 }

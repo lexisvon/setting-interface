@@ -1,16 +1,23 @@
 .background-g {
   width: 100vw;
   height: 100vh;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#de485b+0,2bb4b3+100 */
   background: #de485b;
   /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #de485b 9%, #2bb4b3 86%);
+  background: -moz-linear-gradient(left, #de485b 0%, #2bb4b3 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg, #de485b 9%, #2bb4b3 86%);
+  background: -webkit-linear-gradient(left, #de485b 0%, #2bb4b3 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, #de485b 9%, #2bb4b3 86%);
+  background: linear-gradient(to right, #de485b 0%, #2bb4b3 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de485b', endColorstr='#2bb4b3',GradientType=1 );
-  /* IE6-9 fallback on horizontal gradient */ }
+  /* IE6-9 */ }
+
+.modal {
+  background-color: rgba(255, 255, 255, 0.4); }
+  .modal .d-col-3, .modal a {
+    color: #fff;
+    opacity: .8; }
 
 .d-col-1 {
   width: 7.05%; }
@@ -48,6 +55,15 @@
 .d-col-12, .d-col-full {
   width: 100%; }
 
+html * {
+  padding: 0;
+  margin: 0; }
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 .flex {
   display: flex; }
 
@@ -61,7 +77,17 @@
   width: 80%;
   height: 80vh;
   margin-top: 75px;
-  background-color: blue; }
+  -webkit-box-shadow: 1px 1px 70px -17px black;
+  -moz-box-shadow: 1px 1px 70px -17px black;
+  box-shadow: 1px 1px 70px -17px black; }
+  .modal .d-col-3 {
+    border-right: solid 1px rgba(102, 102, 102, 0.6); }
+  .modal .d-col-3, .modal .d-col-8 {
+    padding: 50px 70px; }
 
 body {
   font-family: "OpenSans-CondLight", sans-serif; }
+  body ul li {
+    list-style-type: none; }
+    body ul li a {
+      text-decoration: none; }
