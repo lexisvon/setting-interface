@@ -1,0 +1,15 @@
+.background-g {
+	width: 100vw;
+	height: 100vh;
+	background: rgb(222,72,91); 
+	/* Old browsers */
+	background: -moz-linear-gradient(-45deg,  rgba(222,72,91,1) 9%, rgba(43,180,179,1) 86%); 
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  rgba(222,72,91,1) 9%,rgba(43,180,179,1) 86%); 
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  rgba(222,72,91,1) 9%,rgba(43,180,179,1) 86%); 
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de485b', endColorstr='#2bb4b3',GradientType=1 ); 
+	/* IE6-9 fallback on horizontal gradient */
+
+}
