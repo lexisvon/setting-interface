@@ -1,5 +1,7 @@
 $white-opac: rgba(255,255,255,.4);
 $white: #fff;
+$dk-green: #1C5C5E;
+
 .background-g {
 	width: 100vw;
 	height: 100vh;
@@ -17,5 +19,14 @@ $white: #fff;
 		color: $white;
 		opacity: .8;
 	}
-	
+	.d-col-8 {
+		color: $dk-green;
+	}
+}
+.hover:hover {
+	background-color: $white-opac;
+	cursor: pointer;
+}
+.hover:hover a {
+	color: $dk-green;
 }
