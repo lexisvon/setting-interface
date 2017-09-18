@@ -20,6 +20,8 @@
     opacity: .8; }
   .modal .d-col-8 {
     color: #1C5C5E; }
+  .modal .fa-check-square {
+    color: #41B24F; }
 
 .hover:hover {
   background-color: rgba(255, 255, 255, 0.4);
@@ -87,10 +89,24 @@ html * {
 
 .container {
   margin-top: 50px; }
+  .container .flex .box:first-child {
+    margin-bottom: 30px; }
   .container .box {
     width: 120px;
     height: 120px;
-    border: 1px solid black; }
+    border: 4px solid #41B24F;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.2); }
+  .container .flex .box:last-child {
+    border: 4px dashed #1C5C5E; }
+  .container .fa-slack, .container .fa-dropbox, .container .fa-get-pocket, .container .fa-github, .container .fa-trello, .container .fa-plus {
+    position: absolute;
+    top: 35px;
+    left: 30px; }
+  .container .fa-check-square {
+    position: absolute;
+    bottom: 0;
+    right: 0; }
   .container .mb-50 {
     margin-bottom: 60px; }
 
@@ -105,6 +121,14 @@ li {
 
 .d-col-8 h1 {
   margin: 50px 0 20px 0; }
+
+.modal {
+  position: relative; }
+  .modal .fa-times {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    font-size: 1.3rem; }
 
 .modal {
   max-width: 80%;
@@ -131,3 +155,5 @@ body {
     font-size: 2.1rem; }
   body p {
     font-size: 1.3rem; }
+  body .fa-slack, body .fa-dropbox, body .fa-get-pocket, body .fa-github, body .fa-trello, body .fa-plus {
+    font-size: 3.4rem; }

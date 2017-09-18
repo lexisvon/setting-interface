@@ -22,6 +22,10 @@ body {
 	} 
 	p {
 		font-size: $p-size; 
+		
+	}
+	.fa-slack, .fa-dropbox, .fa-get-pocket, .fa-github, .fa-trello, .fa-plus {
+		font-size: 3.4rem;
 	}
 }
 

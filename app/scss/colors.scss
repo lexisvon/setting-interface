@@ -1,6 +1,7 @@
 $white-opac: rgba(255,255,255,.4);
 $white: #fff;
 $dk-green: #1C5C5E;
+$border-check: #41B24F;
 
 .background-g {
 	width: 100vw;
@@ -21,6 +22,9 @@ $dk-green: #1C5C5E;
 	}
 	.d-col-8 {
 		color: $dk-green;
+	}
+	.fa-check-square {
+		color: $border-check;
 	}
 }
 .hover:hover {
